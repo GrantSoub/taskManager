@@ -18,6 +18,13 @@ from datetime import datetime, timedelta
 
 load_dotenv()
 
+
+def require_env(name: str) -> str:
+    value = os.getenv(name, "").strip()
+    if not value:
+        raise ValueError(f"Missing required environment variable: {name}")
+    return value
+
 # Stores the live back-and-forth for the current process.
 # This is short-term memory only and is lost if the bot restarts.
 user_histories = {}
@@ -354,8 +361,8 @@ agent_executor = create_react_agent(model, tools)
 
 
 # Telegram Bot Setup
-TOKEN: Final = "8654366411:AAEJh6GU1L0wT4BL-Eh2BwYdw4WMQy0T7Ok"
-BOT_USERNAME: Final = "future_me_assistant_bot"
+TOKEN: Final = require_env("TELEGRAM_BOT_TOKEN")
+BOT_USERNAME: Final = os.getenv("TELEGRAM_BOT_USERNAME", "future_me_assistant_bot").strip() or "future_me_assistant_bot"
 
 
 # Commands

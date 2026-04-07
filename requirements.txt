@@ -1,0 +1,5 @@
+python-telegram-bot
+langchain-core
+langchain-openai
+langgraph
+python-dotenv
