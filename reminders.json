@@ -1,0 +1,66 @@
+{
+  "2026-03-11": [
+    {
+      "text": "Test notification for 3:32pm",
+      "time": "15:32",
+      "category": "Test",
+      "completed": false
+    },
+    {
+      "text": "Buy groceries",
+      "time": "18:00",
+      "category": "Shopping",
+      "completed": false
+    },
+    {
+      "text": "Call Alice",
+      "time": "",
+      "category": "Personal",
+      "completed": false
+    },
+    {
+      "id": "rem_1773259245.88379",
+      "text": "Reminder: Check in 2 minutes from now",
+      "time": "16:02",
+      "category": "General",
+      "completed": false
+    }
+  ],
+  "2026-03-12": [
+    {
+      "text": "Morning run",
+      "time": "07:00",
+      "category": "Health",
+      "completed": false
+    },
+    {
+      "id": "rem_1773257193.606493",
+      "text": "Time to notify you",
+      "time": "15:27",
+      "category": "General",
+      "completed": false
+    },
+    {
+      "id": "rem_1773258974.751234",
+      "text": "Reminder for Master",
+      "time": "15:57",
+      "category": "General",
+      "completed": false
+    },
+    {
+      "id": "rem_1773259022.024004",
+      "text": "Check in with Master",
+      "time": "",
+      "category": "General",
+      "completed": false
+    }
+  ],
+  "2026-03-13": [
+    {
+      "text": "Project deadline",
+      "time": "23:59",
+      "category": "Work",
+      "completed": false
+    }
+  ]
+}

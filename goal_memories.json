@@ -1,0 +1,29 @@
+{
+  "7608341109": {
+    "summary": "",
+    "goals": [
+      {
+        "goal": "Become a more social person",
+        "why": "To improve social connections and communication skills",
+        "details": "Steps: 1. Start Small 2. Join Social Activities 3. Listen Actively 4. Initiate Plans 5. Practice Consistently",
+        "created_at": "2026-03-26 13:20:27",
+        "updated_at": "2026-03-26 13:20:27"
+      },
+      {
+        "goal": "Quit weed",
+        "why": "To improve overall health and well-being, and to be more present and engaged in social interactions",
+        "details": "Steps: 1. Identify triggers 2. Seek support 3. Replace with healthy habits 4. Stay accountable | Triggers include boredom. Need to find healthy alternatives to cope with boredom. | Identified triggers include boredom and feeling withdrawn",
+        "created_at": "2026-03-26 13:21:21",
+        "updated_at": "2026-03-26 13:23:16"
+      },
+      {
+        "goal": "Update code remotely for reminders system on Raspberry Pi",
+        "why": "To be able to make changes from school while Raspberry Pi is running at home",
+        "details": "",
+        "created_at": "2026-03-26 13:28:11",
+        "updated_at": "2026-03-26 13:28:11"
+      }
+    ],
+    "updated_at": "2026-03-26 13:28:11"
+  }
+}
